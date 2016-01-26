@@ -12,7 +12,6 @@
 		A58C51271C56CE5F001B618C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A58C51261C56CE5F001B618C /* Assets.xcassets */; };
 		A58C512A1C56CE5F001B618C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A58C51281C56CE5F001B618C /* Main.storyboard */; };
 		A58C51391C56EEB8001B618C /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A58C51381C56EEB8001B618C /* AVFoundation.framework */; };
-		A58C513B1C56EF0C001B618C /* VideoPlayerController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A58C513A1C56EF0C001B618C /* VideoPlayerController.swift */; };
 		A58C513D1C56F214001B618C /* AVKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A58C513C1C56F214001B618C /* AVKit.framework */; };
 		A58C513F1C56F281001B618C /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A58C513E1C56F281001B618C /* MapKit.framework */; };
 /* End PBXBuildFile section */
@@ -25,7 +24,6 @@
 		A58C51291C56CE5F001B618C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A58C512B1C56CE5F001B618C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A58C51381C56EEB8001B618C /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
-		A58C513A1C56EF0C001B618C /* VideoPlayerController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VideoPlayerController.swift; sourceTree = "<group>"; };
 		A58C513C1C56F214001B618C /* AVKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVKit.framework; path = System/Library/Frameworks/AVKit.framework; sourceTree = SDKROOT; };
 		A58C513E1C56F281001B618C /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
@@ -69,7 +67,6 @@
 				A58C51311C56CF60001B618C /* Supporting Files */,
 				A58C51221C56CE5F001B618C /* AppDelegate.swift */,
 				A58C51241C56CE5F001B618C /* ViewController.swift */,
-				A58C513A1C56EF0C001B618C /* VideoPlayerController.swift */,
 			);
 			path = BagMatcher;
 			sourceTree = "<group>";
@@ -154,7 +151,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A58C513B1C56EF0C001B618C /* VideoPlayerController.swift in Sources */,
 				A58C51251C56CE5F001B618C /* ViewController.swift in Sources */,
 				A58C51231C56CE5F001B618C /* AppDelegate.swift in Sources */,
 			);
@@ -297,6 +293,7 @@
 				A58C51301C56CE5F001B618C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
